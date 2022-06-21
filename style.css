@@ -1,0 +1,31 @@
+body {
+  background: linear-gradient(
+    rgba(128, 88, 192, 0.4),
+    rgba(135, 60, 255, 0) 80%
+  );
+
+  font-size: 20px;
+  font-style: oblique;
+  font-weight: lighter;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  color: rgb(18, 68, 39);
+  transition: color 1s ease;
+}
+
+h1:hover {
+  color: hsl(297, 64%, 32%);
+  border: 1px dashed rgba(231, 33, 43, 0.4);
+  border-radius: 2px;
+}
+ul {
+  list-style-type: armenian;
+}
+p {
+  color: rgb(10, 49, 25);
+}
